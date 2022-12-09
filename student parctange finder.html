@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+       let a = prompt("Enter total marks")
+        let b =prompt("Enter your obtain marks");
+       let grade=  b/a*100;
+        if (b >= 450 && b <= 500) {
+            alert   ( + grade+   " % Congratulation You Have Got (A+) Grade")
+        }
+        else if(b >= 400 && b <= 449){
+            alert( + grade+" % Congratulation You Have Got (A) Grade")
+         }
+        else if (b >= 400 && b <= 399){
+            alert( + grade+" % You Have Got (B) Grade")
+        }
+        else if(b >= 350 && b <= 399){
+            alert( + grade+" % You Have Got (C) Grade")
+       }
+        else if(b >= 201 && b <= 349) {
+            alert( + grade+" % You Have Got (D) Grade" )
+        }
+        
+        else{
+            alert( + grade+"% Sorry You are Fail")
+         }
+        
+        
+    </script>
+</body>
+</html>
